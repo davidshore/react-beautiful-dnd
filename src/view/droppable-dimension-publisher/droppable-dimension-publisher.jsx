@@ -175,6 +175,7 @@ export default class DroppableDimensionPublisher extends Component<Props> {
     this.publish(descriptor);
 
     // 2. Update is enabled
+    return;
 
     if (this.props.isDropDisabled === nextProps.isDropDisabled) {
       return;
